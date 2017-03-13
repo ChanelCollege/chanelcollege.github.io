@@ -1,0 +1,303 @@
+/*_________________(Main styling for content)____________________________________________________________________________________________________________________________________________________________________________________________________________________*/
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+.body {
+	background-color: #c0c0c0;
+}
+.image1 {
+	width: 798px;
+	height: 325px;
+}
+.Top img {
+	width: 99%;
+	height: 180px;
+	padding-top: 10px;
+}
+li {
+	border-right: 2px solid #000;
+	float: left;
+}
+.mainContent {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	line-height: 25px;
+}
+.content {
+	float: left;
+	width: 100%;
+	text-decoration: none;
+	/*No underline */
+}
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+	margin-right: 1%;
+}
+.topcontent img {
+	width: 50%;
+}
+.middlecontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-right: 1%;
+}
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-right: 1%;
+}
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+.mainFooter {
+	width: 99%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #000;
+	margin: 2% 0;
+	height: 40px;
+}
+.mainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #D4AF37;
+	text-align: center;
+}
+.ul topnav {
+	text-align: center;
+}
+.dinnerimg {
+	width: 99%;
+}
+.cake {
+	width: 99%;
+}
+.banner {
+	width: 99%;
+}
+.indeximg {
+	width: 99%;
+	height: 99%;
+	padding-top: 10px;
+}
+
+/*Hamburger Menu-------------------------------------(Styling for my hamburger menu)-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Styling the Hamburger icon */
+
+.icon {
+	color: #D4AF37;
+	font-size: 22px;
+}
+
+/* Remove the input field from the label */
+
+.icon, [id^=drop] {
+	display: none;
+}
+
+/* Remove margins and padding from the list, and add a black background colour */
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/* Change background nav colour and width */
+
+nav {
+	background-color: #000;
+	width: 99%;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+/* Float the list items side by side */
+
+ul.topnav li {
+	float: left;
+}
+
+/* Style li */
+
+ul.topnav li a {
+	display: inline-block;
+	/* inline-block elements are like inline elements but they can have a width and a height */
+	color: #D4AF37;
+	;
+	text-align: center;
+	padding: 13px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change background color of links when hover  over */
+
+ul.topnav li a:hover {
+	background-color: #000;
+}
+
+/* Hide the navigation icon item that contains the link that should open and close the topnav on small screens such as mobile devices */
+
+ul.topnav li.icon {
+	display: none;
+}
+
+/* Settings for if a screen is less than 680 pixels wide */
+
+@media screen and (max-width:680px) {
+	/* Hide the menu items */
+	ul.topnav li {
+		display: none;
+	}
+	/* Display the nvaigation icon */
+	.icon {
+		display: block;
+		padding: 0 20px;
+		color: #D4AF37;
+		font-size: 20px;
+		line-height: 60px;
+	}
+	/* Set background hover over colour when hovering over the navigation icon */
+	.icon:hover {
+		background-color: #000000;
+	}
+	/* Display the dropdown menu (li) when clicked */
+	[id^=drop]:checked+ul.topnav li {
+		display: block;
+	}
+	/* Set properties of list items */
+	nav li {
+		display: block;
+		width: 100%;
+		border-bottom: 1px ridge gray;
+	}
+	/* Set hover over colour for li*/
+	nav li:hover {
+		background-color: #111;
+	}
+	.feedback {
+		width: 50%;
+	}
+}
+
+/*PHP___________________________________(Styling for my contact form (PHP)__________________________________________________________________________________________________________________________________________________________*/
+
+h3, p, label {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+input {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 30px;
+	box-shadow: 1px 1px 12px gray;
+	border-radius: 3px;
+	border: none
+}
+textarea {
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	padding: 5px;
+	box-shadow: 1px 1px 12px gray;
+	border-radius: 3px
+}
+#send {
+	width: 100%;
+	height: 45px;
+	margin-top: 20px;
+	border-radius: 3px;
+	background-color: #000;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 18px
+}
+div#feedback {
+	text-align: center;
+	height: 475px;
+	width: 330px;
+	padding: 0px 25px 0px 15px;
+	background-color: #f3f3f3;
+	border-radius: 3px;
+	border: 1px solid #000;
+	font-family: sans-serif;
+	margin: auto;
+}
+@media screen and (max-width:680px) {
+	div#feedback {
+		width: 80%;
+		height: 50%;
+	}
+	/*-----Additional Media Quieres-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+	.banner2 {
+		width: 50%;
+	}
+}
+
+/* End of media query (max-width:680px) */
+
+
+/* Image Manipulation */
+
+@media only screen and (max-width: 500px) {
+	/* Removing image1  with image2 (Resizing logo for devices with smaller screen widths  ) */
+	.image1 {
+		display: none;
+	}
+	.image2 {
+		display: block;
+	}
+}
+
+/* End of media query (max-width:500px) */
+
+@media only screen and (min-width: 501px) {
+	/* Removing image2 on Desktop view */
+.image2 {
+		display: none;
+	}
+}
+
+/* End of media query (min-width:501px) */
+
+@media only screen and (min-width:520px) {
+	/*Resizing images for devices with smaller screens */
+	.dinnerimg {
+		width: 55%;
+		padding: 0 23%;
+	}
+	.cake {
+		width: 55%;
+		padding: 0 23%;
+	}
+}
+
+/* End of media query */
